@@ -16,8 +16,16 @@
     "babel-preset-react": "^6.16.0",
     "babel-preset-stage-0": "^6.16.0",
     "css-loader": "^0.26.1",
+    "expect": "^1.14.0",
     "foundation-sites": "^6.3.0",
     "jquery": "^2.2.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-mocha": "^0.2.2",
+    "karma-mocha-reporter": "^2.0.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.4.5",
     "node-sass": "^4.1.1",
     "sass-loader": "^4.1.1",
     "script-loader": "^0.7.0",
@@ -25,7 +33,7 @@
     "webpack": "^1.14.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "karma start",
     "start": "dotnet run"
   },
   "author": "Fred Gravil",

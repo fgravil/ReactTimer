@@ -17,13 +17,13 @@ module.exports = {
     ],
     output: {
         path: __dirname,
-        filename: './wwwroot/js/site.js'
+        filename: './wwwroot/js/bundle.js'
     },
     resolve: {
         root: __dirname,
         alias: {
             Main: 'app/components/Main.jsx',
-            Nav: 'app/components/Nav.jsx', 
+            Nav: 'app/components/Nav.jsx',
             applicationStyles: 'app/styles/app.scss'
         },
         extensions: ['', '.js', '.jsx']

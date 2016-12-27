@@ -1,4 +1,5 @@
 ﻿/// <autosync enabled="true" />
+/// <reference path="../karma.conf.js" />
 /// <reference path="../public/bundle.js" />
 /// <reference path="../webpack.config.js" />
 /// <reference path="js/bundle.js" />
