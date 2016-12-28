@@ -17,7 +17,7 @@ module.exports = {
     ],
     output: {
         path: __dirname,
-        filename: './wwwroot/js/bundle.js'
+        filename: './wwwroot/js/site.js'
     },
     resolve: {
         root: __dirname,
