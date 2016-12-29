@@ -7,7 +7,7 @@ var Main = (props) =>{
         <Nav />
         <div className="row">
           <div className="column small-centered medium-6 large-4">
-            {props.children}
+           {props.children}
           </div>
         </div>
       </div>
